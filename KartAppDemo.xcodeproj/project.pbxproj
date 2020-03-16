@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02123E1B23550EB6006F38B7 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02123E1A23550EB6006F38B7 /* LogInViewController.swift */; };
+		021290DD2355D21C00AC2D9A /* SellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021290DC2355D21C00AC2D9A /* SellViewController.swift */; };
+		021290DF2355D22800AC2D9A /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021290DE2355D22800AC2D9A /* BuyViewController.swift */; };
+		02BB64C22352534200950446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BB64C12352534200950446 /* AppDelegate.swift */; };
+		02BB64C42352534200950446 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BB64C32352534200950446 /* SceneDelegate.swift */; };
+		02BB64C62352534200950446 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BB64C52352534200950446 /* ViewController.swift */; };
+		02BB64C92352534200950446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BB64C72352534200950446 /* Main.storyboard */; };
+		02BB64CB2352534400950446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BB64CA2352534400950446 /* Assets.xcassets */; };
+		02BB64CE2352534400950446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BB64CC2352534400950446 /* LaunchScreen.storyboard */; };
+		02BB64D6235254D500950446 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02BB64D5235254D500950446 /* GoogleService-Info.plist */; };
+		6D27345B9992E05F4D84CCF4 /* Pods_KartAppDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AADD5DA7958EF003B0D317F /* Pods_KartAppDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02123E1A23550EB6006F38B7 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		021290DC2355D21C00AC2D9A /* SellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellViewController.swift; sourceTree = "<group>"; };
+		021290DE2355D22800AC2D9A /* BuyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		02BB64BE2352534200950446 /* KartAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KartAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02BB64C12352534200950446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02BB64C32352534200950446 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02BB64C52352534200950446 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02BB64C82352534200950446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02BB64CA2352534400950446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02BB64CD2352534400950446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02BB64CF2352534400950446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02BB64D5235254D500950446 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1AADD5DA7958EF003B0D317F /* Pods_KartAppDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KartAppDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7EBFF0AF3C4B4AF3D1342FD /* Pods-KartAppDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KartAppDemo.debug.xcconfig"; path = "Target Support Files/Pods-KartAppDemo/Pods-KartAppDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F9C2A168F101399DB85AA8A8 /* Pods-KartAppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KartAppDemo.release.xcconfig"; path = "Target Support Files/Pods-KartAppDemo/Pods-KartAppDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02BB64BB2352534200950446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D27345B9992E05F4D84CCF4 /* Pods_KartAppDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02BB64B52352534200950446 = {
+			isa = PBXGroup;
+			children = (
+				02BB64C02352534200950446 /* KartAppDemo */,
+				02BB64BF2352534200950446 /* Products */,
+				AEEAC67DAFB302BD41CD1A47 /* Pods */,
+				39FB5D45F3BBCF346A30FAFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02BB64BF2352534200950446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02BB64BE2352534200950446 /* KartAppDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02BB64C02352534200950446 /* KartAppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				02BB64C12352534200950446 /* AppDelegate.swift */,
+				02BB64C32352534200950446 /* SceneDelegate.swift */,
+				02BB64C52352534200950446 /* ViewController.swift */,
+				02123E1A23550EB6006F38B7 /* LogInViewController.swift */,
+				021290DE2355D22800AC2D9A /* BuyViewController.swift */,
+				021290DC2355D21C00AC2D9A /* SellViewController.swift */,
+				02BB64C72352534200950446 /* Main.storyboard */,
+				02BB64CA2352534400950446 /* Assets.xcassets */,
+				02BB64CC2352534400950446 /* LaunchScreen.storyboard */,
+				02BB64CF2352534400950446 /* Info.plist */,
+				02BB64D5235254D500950446 /* GoogleService-Info.plist */,
+			);
+			path = KartAppDemo;
+			sourceTree = "<group>";
+		};
+		39FB5D45F3BBCF346A30FAFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AADD5DA7958EF003B0D317F /* Pods_KartAppDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEEAC67DAFB302BD41CD1A47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7EBFF0AF3C4B4AF3D1342FD /* Pods-KartAppDemo.debug.xcconfig */,
+				F9C2A168F101399DB85AA8A8 /* Pods-KartAppDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02BB64BD2352534200950446 /* KartAppDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02BB64D22352534400950446 /* Build configuration list for PBXNativeTarget "KartAppDemo" */;
+			buildPhases = (
+				B4B23E44FD6EAF66A0AD0D13 /* [CP] Check Pods Manifest.lock */,
+				02BB64BA2352534200950446 /* Sources */,
+				02BB64BB2352534200950446 /* Frameworks */,
+				02BB64BC2352534200950446 /* Resources */,
+				485F55CC011C5CB447B6B9F4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KartAppDemo;
+			productName = KartAppDemo;
+			productReference = 02BB64BE2352534200950446 /* KartAppDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02BB64B62352534200950446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Likhit Garimella";
+				TargetAttributes = {
+					02BB64BD2352534200950446 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 02BB64B92352534200950446 /* Build configuration list for PBXProject "KartAppDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02BB64B52352534200950446;
+			productRefGroup = 02BB64BF2352534200950446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02BB64BD2352534200950446 /* KartAppDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02BB64BC2352534200950446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02BB64CE2352534400950446 /* LaunchScreen.storyboard in Resources */,
+				02BB64D6235254D500950446 /* GoogleService-Info.plist in Resources */,
+				02BB64CB2352534400950446 /* Assets.xcassets in Resources */,
+				02BB64C92352534200950446 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		485F55CC011C5CB447B6B9F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KartAppDemo/Pods-KartAppDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KartAppDemo/Pods-KartAppDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KartAppDemo/Pods-KartAppDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4B23E44FD6EAF66A0AD0D13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KartAppDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02BB64BA2352534200950446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02123E1B23550EB6006F38B7 /* LogInViewController.swift in Sources */,
+				021290DD2355D21C00AC2D9A /* SellViewController.swift in Sources */,
+				02BB64C62352534200950446 /* ViewController.swift in Sources */,
+				02BB64C22352534200950446 /* AppDelegate.swift in Sources */,
+				02BB64C42352534200950446 /* SceneDelegate.swift in Sources */,
+				021290DF2355D22800AC2D9A /* BuyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02BB64C72352534200950446 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02BB64C82352534200950446 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02BB64CC2352534400950446 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02BB64CD2352534400950446 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02BB64D02352534400950446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02BB64D12352534400950446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02BB64D32352534400950446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7EBFF0AF3C4B4AF3D1342FD /* Pods-KartAppDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77BWS8985H;
+				INFOPLIST_FILE = KartAppDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.likhitgarimella.KartAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02BB64D42352534400950446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C2A168F101399DB85AA8A8 /* Pods-KartAppDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77BWS8985H;
+				INFOPLIST_FILE = KartAppDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.likhitgarimella.KartAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02BB64B92352534200950446 /* Build configuration list for PBXProject "KartAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02BB64D02352534400950446 /* Debug */,
+				02BB64D12352534400950446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02BB64D22352534400950446 /* Build configuration list for PBXNativeTarget "KartAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02BB64D32352534400950446 /* Debug */,
+				02BB64D42352534400950446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02BB64B62352534200950446 /* Project object */;
+}
